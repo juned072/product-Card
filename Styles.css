@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 50px;
+}
+
+.product-card {
+    border:  1px solid #cecece;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    width: 300px;
+    height: auto;
+}
+
+.product-details{
+    padding: 8px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-delete-price{
+    color: #4b4b4b;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.product-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+.product-price {
+    margin: 10px 0;
+    font-size: 14px; 
+    color: red;
+    font-size: 18px; 
+    font-weight: bold;  
+}
+
+.product-rating{
+    margin: 0;
+    color: #3f3f3f;
+    font-size: 14px;
+}
+
+.product-description {
+    font-size: 13px;
+    margin: 8px 0px;
+    color: #3f3f3f;
+}
+    
+.product-button {
+  width: 100%;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.product-button:hover {
+  background-color: #da0101;
+}
